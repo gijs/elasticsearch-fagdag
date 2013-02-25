@@ -23,3 +23,12 @@ curl -XPUT http://localhost:9200/twitter/tweet/2 -d '{
     "post_date": "2013-03-01T06:00:01",
     "message": "Even more psyched"
 }'
+
+
+Check out type-mappings using head console
+-------------------------------
+
+Check out type-mappings using head console
+-------------------------------
+Check out type-mappings using head console
+-------------------------------
