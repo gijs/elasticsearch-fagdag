@@ -13,12 +13,14 @@ Case
     - Windows: bin/elasticsearch
 
 
-Create index for holding banking transactions
+Sharding and replication 
 -------------------------------
 
 1. Having more *shards* enhances the _indexing_ performance and allows to _distribute_ a big index across machines.
 2. Having more *replicas* enhances the _search_ performance and improves the cluster _availability_.
 
+Create index for holding banking transactions
+-------------------------------
 
     curl -XPUT 'http://localhost:9200/banking' -d '{
         "settings" : {
