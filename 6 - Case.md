@@ -1,12 +1,8 @@
 Case
 -------------------------------
 
-1. Join ElasticSearch Network
-
-    - Password: ElasticSearch
-    
+1. Join ElasticSearch Network (Password: ElasticSearch)
 2. Unzip elasticsearch
-
 3. Start elastic search
 
     - Mac / Linux: bin/elasticsearch -f
