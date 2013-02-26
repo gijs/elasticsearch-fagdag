@@ -25,7 +25,6 @@ Use JSON-style query DSL
         }
     }'
 
-
     curl -XGET http://localhost:9200/twitter/_search?pretty=true -d '{
         "query" : {
             "range" : {
