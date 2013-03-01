@@ -8,6 +8,7 @@ Case
     - Mac / Linux: bin/elasticsearch -f
     - Windows: bin/elasticsearch
 
+(4. set environment variable JAVA_HOME to point at jdk installation) 
 
 Sharding and replication 
 -------------------------------
