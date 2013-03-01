@@ -6,7 +6,13 @@ Create two indexes
 
     curl -XPUT http://localhost:9200/logs-jan-2013
 
-    curl -XPUT http://localhost:9200/logs-feb-2013
+	curl -XPUT http://localhost:9200/logs-feb-2013 -d \
+	'
+	index :
+	    store:
+	        type: memory
+	'
+
 
 
 PUT some data

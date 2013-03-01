@@ -30,7 +30,7 @@ Create index for holding banking transactions
 Bulk insert banking transactions
 -------------------------------
 
-    curl -s -XPOST localhost:9200/_bulk --data-binary @transer_m.txt; echo
+    curl -s -XPOST localhost:9200/_bulk --data-binary @transer.txt; echo
 
 
 Count number of transactions for account number 13816695547
